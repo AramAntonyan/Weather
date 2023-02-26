@@ -95,7 +95,7 @@ public class AramAntonyanTest {
 
         //Act
         driver.get(url);
-        Thread.sleep(5000);
+        Thread.sleep(6000);
         driver.manage().window().maximize();
 
         WebElement guideButton = driver.findElement(
