@@ -77,10 +77,10 @@ public class AramAntonyanTest {
         driver.quit();
     }
     //     TC_11_01
-//    1. Открыть базовую ссылку
-//    2. Нажать на пункт меню Guide
-//    3. Подтвердить, что вы перешли на страницу со ссылкой https://openweathermap.org/guide
-//    и что title этой страницы OpenWeatherMap API guide - OpenWeatherMap
+    //    1. Открыть базовую ссылку
+    //    2. Нажать на пункт меню Guide
+    //    3. Подтвердить, что вы перешли на страницу со ссылкой https://openweathermap.org/guide
+    //    и что title этой страницы OpenWeatherMap API guide - OpenWeatherMap
 
     @Test
     public void testTitleGuide() throws InterruptedException {
