@@ -48,7 +48,7 @@ public class AramAntonyanTest {
 
         searchButton.click();
 
-        Thread.sleep(1000);
+        Thread.sleep(2000);
 
         WebElement parisFRChoiceInDropdownMenu = driver.findElement(
                 By.xpath("//ul[@class='search-dropdown-menu']/li/span[text()='Paris, FR ']")
